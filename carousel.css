@@ -1,15 +1,18 @@
-* {box-sizing: border-box;}
-body {font-family: Verdana, sans-serif;}
-.mySlides {display: none;}
-img {vertical-align: middle;}
+/* * {
+  box-sizing: border-box;
+} */
+.mySlides{
+  display: block;
+}
+/* img {
+  vertical-align: middle;
+} */
 
 /* Slideshow container */
 .slideshow-container {
-  max-width: 1000px;
-  position: relative;
-  margin: auto;
+  margin: 20px auto;
+  max-width: 80%;
 }
-
 
 /* The dots/bullets/indicators */
 .dot {

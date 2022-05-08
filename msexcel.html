@@ -1,0 +1,739 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>E-Learning-Excel</title>
+  <!-- stylesheet -->
+  <!-- <link rel="stylesheet" href="style.css"> -->
+  <link rel="stylesheet" href="msexcel.css">
+  <!-- stylesheet -->
+  <!-- google font link -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Ubuntu:wght@300&display=swap" rel="stylesheet">
+  <link
+    href="https://fonts.googleapis.com/css2?family=Acme&family=Courgette&family=Pacifico&family=Permanent+Marker&family=Special+Elite&family=Stick+No+Bills:wght@200;300&display=swap"
+    rel="stylesheet">
+  <!-- google font link -->
+</head>
+
+<body>
+  <header>
+    <h1 id="top">E-Learning Portal</h1>
+  </header>
+  <!-- Navbar -->
+  <section id="navbar">
+    <div class="dropdown">
+      <a id="home" href="index.html"><img src="Primary/home-page.png" alt=""></a>
+    </div>
+    <div class="dropdown">
+      <h3>Computational Tools</h3>
+      <div class="dropdown-content">
+        <p><a href="msword.html">MS Word</a></p>
+        <p><a href="msexcel.html">MS Excel</a></p>
+        <p><a href="mspp.html">MS PowerPoint</a></p>
+        <p><a href="notepad.html">NotePad</a></p>
+        <p><a href="mspaint.html">Paint</a></p>
+      </div>
+    </div>
+    <div class="dropdown">
+      <h3>Programming Languages</h3>
+      <div class="dropdown-content">
+        <p><a href="google.com" target="blank">Python</a></p>
+        <p><a href="google.com">C</a></p>
+        <p><a href="google.com">C++</a></p>
+        <p><a href="google.com">Java</a></p>
+      </div>
+    </div>
+    <div class="dropdown">
+      <h3>System Software</h3>
+      <div class="dropdown-content">
+        <p><a href="google.com" target="blank">DBMS</a></p>
+        <p><a href="google.com">OS</a></p>
+      </div>
+    </div>
+    <div class="dropdown">
+      <h3>Career Opportunities</h3>
+      <div class="dropdown-content">
+        <p><a href="google.com" target="blank">public sector</a></p>
+        <p><a href="google.com">private sector</a></p>
+        <p><a href="google.com">Higher studies</a></p>
+        <p><a href="google.com">Reservation</a></p>
+
+      </div>
+    </div>
+    <div class="dropdown">
+      <h3>Communication Skils</h3>
+      <div class="dropdown-content">
+        <p><a href="google.com" target="blank">basic english</a></p>
+        <p><a href="google.com">advanced english</a></p>
+
+      </div>
+    </div>
+  </section>
+  <!-- Navbar -->
+  <!-- word -->
+  <img src="Excel img/Learn MS Excel.png" alt="Welcome Photo" class="center">
+  <!-- Overview -->
+    <section class="container">
+      
+      <div id="msexcel" class="excel" style="height: 550px; overflow-y:auto; ">
+        <h2 style="color: rebeccapurple; text-align: center;">MS Excel</h2>
+        <hr style="height:2px;border-width:0;color:rgb(0, 0, 0);background-color: rebeccapurple">
+        <h3 style="text-align: left;"> <a href="#basic">Basics</a> </h3>
+        <ul style="list-style: none; padding: 0%;">
+          <li><a href="#0">Open Excel</a></li>
+          <li><a href="#1">Create new Excel Sheet</a></li>
+          <li><a href="#2">Introduction to Excel</a></li>
+          <li><a href="#3">Saving Worksheet</a></li>
+        <h3 style="text-align: left;"> <a href="#work">Working on Excel</a></h3>
+        <ul style="list-style: none; padding: 0%;">
+          <li><a href="#4">Data Insertion</a></li>
+          <li><a href="#5">Working with Formulas</a></li>
+        </ul>
+        <h3 style="text-align: left;"> <a href="#rearrange">Rearranging Worksheet</a></h3>
+        <ul style="list-style: none; padding: 0%;">
+          <li><a href="#6">Editing Cell Contents</a></li>
+          <li><a href="#7">Selecting a range</a></li>
+          <li><a href="#8">Copying & Pasting a range</a></li>
+          <li><a href="#9">Erasing/Clearing ranges</a></li>
+          <li><a href="#10">Naming a range</a></li>
+        </ul>
+        <h3 style="text-align: left;"> <a href="#useful">Useful Functions</a> </h3>
+        <ul style="list-style: none; padding: 0%;">
+          <li><a href="#11">Sum</a></li>
+          <li><a href="#12">Average</a></li>
+          <li><a href="#13">Count</a></li>
+          <li><a href="#14">Max & Min</a></li>
+        </ul>
+        <h3 style="text-align: left;"> <a href="#Formatting">Formatting Data</a></h3>
+        <ul style="list-style: none; padding: 0%;">
+          <li><a href="#15">Formatting Text</a></li>
+          <li><a href="#16">Formatting Numbers & Dates</a></li>
+          <li><a href="#17">Formatting Cells Dialog</a></li>
+        </ul>
+        <h3 style="text-align: left;"> <a href="#Chart">Creating a Chart</a></h3>
+        <h3 style="text-align: left;"> <a href="#Quiz">Quiz</a> </h3>
+        <h3 style="text-align: left;"> <a href="#notes">Download Notes</a> </h3>
+        <br>
+      </div>
+    <!-- Overview -->
+    <!-- content -->
+      <div id="content" class="cont">
+        <!-- Introduction -->
+        <h2>Introduction</h2>
+        <br>
+        <p><strong> Microsoft Excel</strong> is a helpful and powerful program for data analysis and documentation. It is a spreadsheet program, which contains a number of columns and rows, where each intersection of a column and a row is a “cell.” Each cell contains one point of data or one piece of information. By organizing the information in this way, you can make information easier to find, and automatically draw information from changing data.</p>
+        <br>
+        <!-- Introduction -->
+        <!-- basics -->
+        <h2 id="basic">Basics</h2>
+        <!-- open Excel -->
+        <br>
+        <h3 id="0">Open MS-Excel</h3>
+        <br>
+        <p style="color: red;">Step 1:</p>
+        <p>Click on search icon</p>
+        <img src="Excel img/2.PNG" style="width: 20%;" alt="2">
+        <br>
+        <p style="color: red;">Step 2:</p>
+        <p>Type Excel</p>
+        <p style="color: red;">Step 3:</p>
+        <p>Click on Open and wait for it to Start</p>
+        <img src="Excel img/3.PNG" style="width: 50%;" alt="3">
+        <br><br>
+        <p style="color: rebeccapurple;"> Open an existing Excel Sheet:</p>
+        <p style="color: red;">Step 1:</p>
+        <p>Click Open from the<strong> File tab</strong></p>
+        <img src="Excel img/4.PNG" style="width: 10%;" alt="4">
+        <br>
+        <p style="color: red;">Step 2:</p>
+        <p>Select <strong>Browse </strong>under Open Section</p>
+        <img src="Excel img/5.PNG" style="width: 30%;" alt="5">
+        <br>
+        <p style="color: red;">Step 3:</p>
+        <p>Browse to your desired Excel Worksheet saved with .xlsx extension</p>
+        <p style="color: red;">Step 4:</p>
+        <p>Double click on that sheet to work on it</p>
+        <br><br><br>
+        <hr style="height:2px;border-width:0;color:rgb(0, 0, 0);background-color:rgb(102, 51, 153)">
+        <!-- open word -->
+        <!-- Creating new ExcelSheet -->
+        <br>
+        <h3 id="1">Creating new Excel Sheet</h3>
+        <br>
+        <p style="color: red;">Step 1:</p>
+        <p>Select Blank Workbook under New Section</p>
+        <img src="Excel img/6.PNG" style="width: 30%;" alt="6">
+        <br><br><br>
+        <hr style="height:2px;border-width:0;color:rgb(0, 0, 0);background-color:rgb(102, 51, 153)">
+        <!-- Creating new ExcelSheet -->
+        <!-- Introduction to Excel -->
+        <br>
+        <h3 id="2">Introduction to Excel</h3>
+        <br>
+        <p>Just below the title of your Worksheet, you can see different tabs grouped in a single line. This line is called <strong>ribbon</strong> which allows you to work smoothly and efficiently in any MS-Office tool you choose.</p>
+        <img src="Excel img/7.jpg" style="width: 60%;" alt="7">
+        <p>Let us take a quick look at Excel Ribbon</p>
+        <h4 style="color: blue;"> Home tab</h4>
+        <p>By default, the Home tab is active. It incorporates all text and cell formatting features such as font and paragraph changes. It also includes basic spreadsheet formatting elements such as text wrap, merging cells, cell style, etc.</p>
+        <h4 style="color: blue;"> Insert tab</h4>
+        <p>Offers commands to insert a variety of items into a document from pictures, shapes, links, tables and different charts</p>
+        <h4 style="color: blue;"> Page Layout tab</h4>
+        <p>Offers commands to adjust page such as margins, orientation and themes</p>
+        <h4 style="color: blue;"> Formulas tab</h4>
+        <p>Offers commands and operators to use when creating Formulas</p>
+        <h4 style="color: blue;"> Data tab</h4>
+        <p>Offers commands for sorting, filtering, analyzing and grouping data</p>
+        <h4 style="color: blue;"> Review tab</h4>
+        <p>Offers commands to review your work such as spelling and also helps you protect your sheet from malicious activities</p>
+        <h4 style="color: blue;"> View tab</h4>
+        <p>Offers commands to view worksheet in variety of styles/layouts/views.</p>
+        <h4 style="color: blue;">Quick Access toolbar</h4>
+        <img src="Excel img/8.PNG" style="width: 40%;" alt="8">
+        <p>This toolbar helps to access save, undo and redo commands and we can also add commands later to it as per our repetition of using a basic command.</p>
+        <br><br>
+        <hr style="height:2px;border-width:0;color:rgb(0, 0, 0);background-color:rgb(102, 51, 153)">
+        <!-- Introduction to Excel -->
+        <!-- Savind a worksheet -->
+        <br><br>
+        <h3 id="3">Saving a worksheet</h3>
+        <br>
+        <p style="color: red;">Step 1:</p>
+        <p>Press <strong>Ctrl + S</strong> together on your keyboard or select <strong>save</strong> on the <strong>File</strong> tab or click the save icon on the <strong>Quick Access Toolbar</strong> </p>
+        <img src="Excel img/9.PNG" style="width: 30%;" alt="9">
+        <br><br>
+        <p style="color: red;">Step 2:</p>
+        <p>If you’re saving the workbook for the first time, then<strong> Save As </strong>dialog box pops up</p>
+        <img src="Excel img/10.gif" style="width: 50%;" alt="10">
+        <br><br>
+        <p style="color: red;">Step 3:</p>
+        <p>In the <strong>File name</strong>, type a name for the workbook.</p>
+        <p style="color: red;">Step 4:</p>
+        <p>Finally click <strong>Save</strong> to save the workbook completely.</p>
+        <br>
+        <p>However, if you are saving a workbook which was saved before, Excel will simply update the already saved Workbook.</p>
+        <br><br><br>
+        <!-- Savind a worksheet -->
+        <!-- Basics -->
+        <!-- Working on Excel -->
+        <h2 id="work">Working on Excel</h2>
+        <br><br>
+        <p>Now that we are aware of various components of a spreadsheet, we can startentering data, moving, copying, editing, clearing, saving, inserting/deleting rows and columns, etc on the spreadsheet.</p>
+        <!-- Data Insertion -->
+        <h3 id="4">Data Insertion</h3>
+        <br>
+        <img src="Excel img/11.PNG" style="width: 50%;" alt="11">
+        <br><br>
+        <p>Any type of data – numeric, alphanumeric, text or formula can be entered in worksheets by typing. To <strong>enter data in a cell</strong> </p>
+        <p style="color: red;">Step 1:</p>
+        <p>Place the cell pointer over the desired cell</p>
+        <p style="color: red;">Step 2:</p>
+        <p>Type the data you wish to enter</p>
+        <br>
+        <hr style="height:2px;border-width:0;color:rgb(0, 0, 0);background-color:rgb(102, 51, 153)">
+        <!-- Data Insertion -->
+        <!-- Working With Formulas -->
+        <br><br>
+        <h3 id="5">Working With Formulas</h3>
+        <br>
+        <img src="Excel img/12.jpeg" style="width: 50%;" alt="12">
+        <p>To obtain a similar bill in Excel</p>
+        <p style="color: red;">Step 1:</p>
+        <p>Enter the first two rows as in above figure, then move to next row.</p>
+        <p style="color: red;">Step 2:</p>
+        <p>Move to the next row and enter the headings S.No in 1st column, Item in 2nd Column, Price in 3rd Column, Quantity in 4th Column and Value in the 5th Column. Enter all the given entries except for the 5th column.</p>
+        <p style="color: red;">Step 3:</p>
+        <p>To obtain the values in 5th column, place the cell pointer in this column next to value 5 of Qty. Enter the formula =C6*D6 in MS-Excel and press Enter.</p>
+        <img src="Excel img/13.PNG" style="width: 50%;" alt="13">
+        <br><br>
+        <p>The moment you enter this formula, you see the calculated result get displayed on the worksheet.</p>
+        <p style="color: red;">Step 4:</p>
+        <p>Similarly, get the values of other two rows and the total using * and + operation in Excel.</p>
+        <p>Hint for getting the total Value</p>
+        <img src="Excel img/14.PNG" style="width: 50%;" alt="14">
+        <br> <br> <br>
+        <!-- Working With Formulas -->
+        <!-- Working on Excel -->
+        <!-- Rearranging Worksheet -->
+        <br><br>
+        <h2 id="rearrange">Rearranging Worksheet</h2>
+        <!-- Editing Cell Contents -->
+        <br><br>
+        <h3 id="6">Editing Cell Contents</h3>
+        <br>
+        <p>We can edit the cell contents in two ways</p>
+        <p>1) To edit a cell by overwriting, follow these steps</p>
+        <p style="color: red;">Step 1:</p>
+        <p>Select the cell you want to edit (You can select a cell by clicking over it or by using the arrow keys on keyboard)</p>
+        <p style="color: red;">Step 2:</p>
+        <p>Type in the new contents</p>
+        <p style="color: red;">Step 3:</p>
+        <p>Hit <strong>enter</strong> key on the keyboard.</p>
+        <br>
+        <p>2) To partially modify the cell contents without overwriting, follow these steps</p>
+        <p style="color: red;">Step 1:</p>
+        <p>Select the cell you want to edit</p>
+        <img src="Excel img/15.jpeg" style="width: 50%;" alt="15">
+        <br><br>
+        <p style="color: red;">Step 2:</p>
+        <p>To edit its contents, either click the formula bar or press F2. Alternatively, you can double click the cell to be edited.</p>
+        <p style="color: red;">Step 3:</p>
+        <p>Edit the cell and press Enter key.</p>
+        <br><br>
+        <hr style="height:2px;border-width:0;color:rgb(0, 0, 0);background-color:rgb(102, 51, 153)">
+        <!-- Editing Cell Contents -->
+        <!-- Selecting a range -->
+        <br><br>
+        <h3 id="7">Selecting a range</h3>
+        <br>
+        <p>A range is a continuous block of contiguous cells. Whenever an operation is performed on a range, it is performed on all the component cells of that range. We can select range either by using a keyboard or mouse.</p>
+        <img src="Excel img/16.PNG" style="width: 50%;" alt="16">
+        <br><br>
+        <p>In the above figure, the corner (active) cell is A4 and the selected range is A4:E8.</p>
+        <br>
+        <h4 style="color: blue;">Selecting a range using Mouse</h4>
+        <p style="color: red;">Step 1:</p>
+        <p>Point to a corner cell of the range to be selected. For example, if you want to select range A4:C7 then A4, A7, C4 and C7 are corner cells. You can point to any of these cells.</p>
+        <p style="color: red;">Step 2:</p>
+        <p>Now holding the left mouse button, drag the mouse pointer to the diagonally opposite corner of the cell. Example, if you had started earlier with A4, you need to drag the mouse pointer to C7.</p>
+        <br>
+        <h4 style="color: blue;">Selecting a range using Keyboard</h4>
+        <p style="color: red;">Step 1:</p>
+        <p>Point to a corner cell of the range to be selected.</p>
+        <p style="color: red;">Step 2:</p>
+        <p>Press <strong>Shift</strong> key. Holding <strong>Shift</strong> key, move to the diagonally opposite corner cell, using arrow keys.</p>
+        <p style="color: red;">Step 3:</p>
+        <p>Now release shift key.</p>
+        <br>
+        <h4 style="color: blue;">Selecting multiple ranges</h4>
+        <img src="Excel img/17.PNG" style="width: 50%;" alt="17">
+        <br><br>
+        <p><strong>Note: </strong>Even on selecting multiple ranges, only one cell remains active, i.e, D15 here</p>
+        <br>
+        <p>In order to select multiple ranges together</p>
+        <p style="color: red;">Step 1:</p>
+        <p>Select first range</p>
+        <p style="color: red;">Step 2:</p>
+        <p>Hold down <strong>Ctrl key</strong> and select another range.</p>
+        <p style="color: red;">Step 3:</p>
+        <p>Repeat step 2 as long as you want to select multiple ranges together</p>
+        <br>
+        <h4 style="color: blue;">Selecting complete row or column</h4>
+        <p>To select the complete row or column, you just need to click row heading or column heading.</p>
+        <img src="Excel img/18.PNG" style="width: 30%;" alt="18">
+        <br><br><br>
+        <h4 style="color: blue;">Selecting entire worksheet</h4>
+        <p>To select the entire worksheet, press Ctrl + A or press Select All button</p>
+        <br><br>
+        <hr style="height:2px;border-width:0;color:rgb(0, 0, 0);background-color:rgb(102, 51, 153)">
+        <!-- Selecting a range -->
+        <!-- Copying & pasting a Range -->
+        <br><br>
+        <h3 id="8">Copying & pasting a Range</h3>
+        <br>
+        <p>To copy data from a source range to a destination range use<strong>copy</strong> and <strong>Paste</strong></p>
+        <p style="color: red;">Step 1:</p>
+        <p>Select the source range, i.e., the range to be copied</p>
+        <p style="color: red;">Step 2:</p>
+        <p>Press Ctrl + C keys together on your keyboard</p>
+        <p style="color: red;">Step 3:</p>
+        <p>Now select the target range, i.e., the range onto which the data are to be copied</p>
+        <p style="color: red;">Step 4:</p>
+        <p>Press Ctrl + V keys together on your keyboard</p>
+        <img src="Excel img/19.jpg" style="width: 70%;" alt="19">
+        <p>Another way to copy data is <strong> copying by dragging </strong></p>
+        <p style="color: red;">Step 1:</p>
+        <p>Select the source range, i.e., the range to be copied</p>
+        <p style="color: red;">Step 2:</p>
+        <p>Position the mouse pointer on the border of selected range</p>
+        <p style="color: red;">Step 3:</p>
+        <p>Hold down <strong>Ctrl</strong> key. You’ll notice that the mouse pointer changes to an arrow with a plus sign. This indicates that copy operation has been initiated.</p>
+        <p style="color: red;">Step 4:</p>
+        <p>Drag the border to target location while holding the mouse’s left button</p>
+        <p style="color: red;">Step 5:</p>
+        <p>Release the mouse button</p>
+        <br><br>
+        <hr style="height:2px;border-width:0;color:rgb(0, 0, 0);background-color:rgb(102, 51, 153)">
+        <!-- Copying & pasting a Range -->
+        <!-- Erasing/Clearing ranges -->
+        <br><br>
+        <h3 id="9">Erasing/Clearing ranges</h3>
+        <br>
+        <img src="Excel img/20.PNG" style="width: 70%;" alt="20">
+        <br><br>
+        <p>To clear cells completely or partially, you may follow these steps</p>
+        <p style="color: red;">Step 1:</p>
+        <p>Select the cells, rows or columns you want to clear</p>
+        <p style="color: red;">Step 2:</p>
+        <p>Click <strong>Home</strong> tab => <strong>Editing</strong> group => <strong>Clear dropdown</strong> menu and then click one of the four options of clear submenu: <strong>All, Formats, Contents,Comments or Hyperlinks.</strong></p>
+        <br>
+        <p><strong>All: </strong>MS-Excel will remove all cell contents and formatting including comments and hyperlinks from selected cells</p>
+        <p><strong>Formats: </strong>Only cell formats are removed from selected cells</p>
+        <p><strong>Contents: </strong>All data and formulas will be removed</p>
+        <p><strong>Comments: </strong>All comments attached to selected cells will be removed</p>
+        <p><strong>Hyperlinks: </strong>All hyperlinks ( links which redirect you to another file or another website) attached to selected cells will be removed</p>
+        <br><br>
+        <hr style="height:2px;border-width:0;color:rgb(0, 0, 0);background-color:rgb(102, 51, 153)">
+        <!-- Erasing/Clearing ranges -->
+        <!-- Naming a range -->
+        <br><br>
+        <h3 id="10">Naming a range</h3>
+        <br>
+        <img src="Excel img/21.png" style="width: 50%;" alt="21">
+        <br><br>
+        <p>In the above fig, the entire range from <strong>A2:D7</strong> is names as <strong>‘Products’</strong></p>
+        <p style="color: red;">Step 1:</p>
+        <p>Select the range to be named</p>
+        <p style="color: red;">Step 2:</p>
+        <p>Type the name, which is to be given to the selected range, in the <strong>Name</strong> box.</p>
+        <br><br>
+        <!-- Naming a range -->
+        <!-- Rearranging Worksheet -->
+        <!-- Some Useful Functions -->
+        <h2 id="useful">Some Useful Functions</h2>
+        <br><br>
+        <p>While defining a function in Excel, there are two integral parts of it</p>
+        <p><strong>1) Arguments: </strong>They are the values passed to the functions. They can be numbers, text, logical values such as TRUE or FALSE, ranges or cell references. They can also be constants, formulas or other functions.</p>
+        <p><strong>2) Structure: </strong>The structure of a function begins with a function name, followed by open parenthesis then the arguments to be passed separated by commas, and a closing parenthesis as shown in figure below. If a function starts a formula, type an equal sign (=) before the function name.</p>
+        <img src="Excel img/22.PNG" style="width: 20%; margin-left: auto; margin-right: auto; display: block;" alt="22">
+        <p>Remember, string values get converted to numbers when passed as arguments.</p>
+        <!-- Sum -->
+        <br><br>
+        <h3 id="11">Sum</h3>
+        <br>
+        <p>This function adds all the numbers in a range of cells.</p>
+        <p>Its syntax is SUM (number1, number 2, …, number 30) where the total number of arguments can be at maximum 30.</p>
+        <p>Some important points to consider</p>
+        <p><strong>a. </strong>Numbers, logical values and text representations of numbers that you type directly into the list of arguments are counted.</p>
+        <p><strong>b. </strong>If an argument is an array, then only numbers in that array are counted.</p>
+        <p><strong>c. </strong>Arguments that are text will be converted to numbers, if not possible to convert, then error will be raised.</p>
+        <br>
+        <p>Some important examples</p>
+        <p><strong>a. </strong>=SUM (“2”,3) equals 5 because text values are translated into numbers</p>
+        <p><strong>b. </strong>If cells A2:E2 contain 5, 15, 30, 40 and 50</p>
+        <img src="Excel img/23.PNG" style="width: 50%;" alt="23">
+        <br><br>
+        <p>=SUM (A2:C2) equals 50 as it denotes A2 +B2+C2 = 5+15+30 = 50</p>
+        <p>Similarly,</p>
+        <p>=SUM (B2:E2,15) equals 150 as it denotes B2+C2+D2+E2+15 = 15+30+40+50+15 = 150</p>
+        <br><br>
+        <hr style="height:2px;border-width:0;color:rgb(0, 0, 0);background-color:rgb(102, 51, 153)">
+        <!-- Sum -->
+        <!-- Average -->
+        <br><br>
+        <h3 id="12">Average</h3>
+        <br>
+        <p>This function returns the average (arithmetic mean) of the arguments.</p>
+        <p>Its syntax is AVERAGE (number 1, number 2, …, number 30)</p>
+        <p>The arguments must be either number or names, arrays or references that contain numbers. Cells with value zero are included.</p>
+        <br>
+        <p><strong>Some examples</strong></p>
+        <p><strong>a. </strong>If range A1:A5 is named Scores and contain the numbers 10,7,9,27 and 2 =AVERAGE (A1:A5) equals 11</p>
+        <img src="Excel img/24.PNG" style="width: 30%;" alt="24">
+        <br><br>
+        <p>=AVERAGE(Scores) equals 11</p>
+        <p><strong>b. </strong>If C1:C3 is named OtherScores and contain the numbers 4,18 and 7</p>
+        <img src="Excel img/25.PNG" style="width: 50%;" alt="25">
+        <br><br>
+        <p>=AVERAGE (Scores, OtherScores) equals 10.5</p>
+        <br><br>
+        <hr style="height:2px;border-width:0;color:rgb(0, 0, 0);background-color:rgb(102, 51, 153)">
+        <!-- Average -->
+        <!-- Count -->
+        <br><br>
+        <h3 id="13">Count</h3>
+        <br>
+        <p>This function counts the number of cells that contain numbers and numbers within the list of arguments.</p>
+        <p>Its syntax is COUNT (value1, value2, …, upto value 30)</p>
+        <p>Arguments that are numbers, dates or text representation of numbers are counted. Arguments that are logical values or text which cannot be converted to numbers are ignored.</p>
+        <p>Let us better understand with an example</p>
+        <img src="Excel img/26.PNG" style="width: 30%;" alt="26">
+        <br><br>
+        <p>In the following example</p>
+        <p>= COUNT (A1:A7) equals 3</p>
+        <p>= COUNT (A3:A5,2) also equals 3 as blank cells are ignored and it counts 19,22.24 and 2.</p>
+        <br><br>
+        <hr style="height:2px;border-width:0;color:rgb(0, 0, 0);background-color:rgb(102, 51, 153)">
+        <!-- Count -->
+        <!-- Max & Min -->
+        <br><br>
+        <h3 id="14">Max & Min</h3>
+        <br>
+        <h4 style="color: blue;">MAX</h4>
+        <p>This function returns the largest value in a set of values.</p>
+        <p>Its syntax is MAX (number 1, …, number 30)</p>
+        <p>You can specify arguments that are numbers, empty cells, logical values or text representation of numbers. However, empty cells, text and logical values get ignored.</p>
+        <p>If logical values and text must not be ignored, use MAXA () instead of MAX ().</p>
+        <p><Strong>Example:</Strong></p>
+        <p>If A1:A5 contains the numbers 7,10,9,27 and 2 then:</p>
+        <img src="Excel img/27.PNG" style="width: 30%;" alt="27">
+        <br><br>
+        <p>=MAX (A1:A5) gives 27.</p>
+        <p>= MAX (A1:A5,30) gives 30.</p>
+        <br>
+        <h4 style="color: blue;">MIN</h4>
+        <p>This function returns the smallest value in a set of values.</p>
+        <p>Its syntax is MIN (number 1,number 2, …, number 30)</p>
+        <p>You can specify arguments that are numbers, empty cells, logical values or text representation of numbers. However, empty cells, text and logical values get ignored.</p>
+        <p>If logical values and text must not be ignored, use MINA () instead of MIN ().</p>
+        <p><strong>Example:</strong></p>
+        <p>If A1:A5 contains the numbers 7,10,9,27 and 2, then</p>
+        <p>= MIN (A1:A5) gives 2.</p>
+        <img src="Excel img/28.PNG" style="width: 30%;" alt="28">
+        <br><br>
+        <p>= MIN (A1:A5,0) gives 0.</p>
+        <br><br>
+        <!-- Max & Min -->
+        <!-- Some Useful Functions -->
+        <!-- Formatting Data -->
+        <h2 id="Formatting">Formatting Data</h2>
+        <br><br>
+        <p>The general arrangement of data is known as formatting. It is the formatting that makes your worksheet neat and presentable. There are several aspects of formatting like text formatting, number formatting, date formatting and formatting the entire cell. Let us look at each one of these one by one</p>
+        <!-- Formatting text -->
+        <br><br>
+        <h3 id="15">Formatting text</h3>
+        <br>
+        <h4 style="color: blue;">To change the font</h4>
+        <br>
+        <img src="Excel img/29.png" style="width: 30%;" alt="29">
+        <br><br>
+        <p style="color: red;">Step 1:</p>
+        <p>Select the cells to be formatted</p>
+        <p style="color: red;">Step 2:</p>
+        <p>Click the Home tab => Font group => Font box’s drop-down arrow. The font drop-down menu appears.</p>
+        <p style="color: red;">Step 3:</p>
+        <p>Move your mouse over the various fonts. A live preview of the font will appear in the worksheet.</p>
+        <p style="color: red;">Step 4:</p>
+        <p>From the drop-down list of fonts, select the font you want to use.</p>
+        <br>
+        <h4 style="color: blue;">To change the font size</h4>
+        <br>
+        <img src="Excel img/30.PNG" style="width: 50%;" alt="30">
+        <br><br>
+        <p style="color: red;">Step 1:</p>
+        <p>Select the cells to be formatted</p>
+        <p style="color: red;">Step 2:</p>
+        <p>Click the Home tab => Font group => Font-size box’s drop-down arrow. The font-size drop-down menu appears.</p>
+        <p style="color: red;">Step 3:</p>
+        <p>Move your mouse over the various font sizes. A live preview of the font-size will appear in the worksheet.</p>
+        <p style="color: red;">Step 4:</p>
+        <p>Select the font size you want to use.</p>
+        <br>
+        <h4 style="color: blue;">To Bold, Italic or Underline text</h4>
+        <br>
+        <br>
+        <img src="Excel img/31.jpg" style="width: 30%;" alt="31">
+        <br><br>
+        <p style="color: red;">Step 1:</p>
+        <p>Select the cells to be formatted</p>
+        <p style="color: red;">Step 2:</p>
+        <p>Click the Bold (B), Italic (I), Underline (U) commands on the Home tab => Font group</p>
+        <br>
+        <h4 style="color: blue;">To add a border</h4>
+        <br>
+        <p style="color: red;">Step 1:</p>
+        <p>Select the cells to be formatted</p>
+        <p style="color: red;">Step 2:</p>
+        <p>Click the Home tab => Font group => the drop-down arrow next to Borders command. The border drop-down menu appears.</p>
+        <p style="color: red;">Step 3:</p>
+        <p>Select the border style you want to use.</p>
+        <br>
+        <h4 style="color: blue;">To change the font/text colour</h4>
+        <br>
+        <p style="color: red;">Step 1:</p>
+        <p>Select the cells to be formatted.</p>
+        <p style="color: red;">Step 2:</p>
+        <p>Click the Home tab => Font group => Font colour’s drop-down arrow. The colour menu appears.</p>
+        <p style="color: red;">Step 3:</p>
+        <p>Move your mouse over the various font colours. A live preview of the colour will appear in the worksheet</p>
+        <p style="color: red;">Step 4:</p>
+        <p>Select the font colour you want to use.</p>
+        <br>
+        <h4 style="color: blue;">To change horizontal text alignment</h4>
+        <br>
+        <img src="Excel img/32.png" style="width: 30%;" alt="32">
+        <br><br>
+        <p style="color: red;">Step 1:</p>
+        <p>Select the cells to be formatted</p>
+        <p style="color: red;">Step 2:</p>
+        <p>Select one of the three horizontal alignments commands on the Home tab => Alignment group.</p>
+        <ol style="list-style-type: lower-roman;">
+          <li><Strong>Align text left: </Strong>Aligns text to the left of the cell.</li>
+          <li><Strong>Center: </Strong>Aligns text to the center of the cell.</li>
+          <li><Strong>Align text right: </Strong>Aligns text to the right of the cell.</li>
+        </ol>
+        <br>
+        <h4 style="color: blue;">To change vertical text alignment</h4>
+        <br>
+        <p style="color: red;">Step 1:</p>
+        <p>Select the cells to be formatted</p>
+        <p style="color: red;">Step 2:</p>
+        <p>Select one of the three vertical alignments commands on the Home tab => Alignment group.</p>
+        <ol style="list-style-type: lower-roman;">
+          <li><Strong>Top Align: </Strong>Aligns text to the top of the cell.</li>
+          <li><Strong>Middle Align: </Strong>Aligns text to the middle of the cell.</li>
+          <li><Strong>Bottom Align: </Strong>Aligns text to the bottom of the cell.</li>
+        </ol>
+        <br><br>
+        <hr style="height:2px;border-width:0;color:rgb(0, 0, 0);background-color:rgb(102, 51, 153)">
+        <!-- Formatting text -->
+        <!-- Formatting Numbers and Dates -->
+        <br><br>
+        <h3 id="16">Formatting Numbers and Dates</h3>
+        <br>
+        <p>This formatting is used to format numbers with decimal places, currency symbol (₹), percent symbol (%), etc.</p>
+        <br>
+        <img src="Excel img/33.png" style="width: 50%;" alt="33">
+        <br><br>
+        <p style="color: red;">Step 1:</p>
+        <p>Select the cells to be formatted.</p>
+        <p style="color: red;">Step 2:</p>
+        <p>Click Home tab => Number group => drop-down arrow next to the Number Format command.</p>
+        <p style="color: red;">Step 3:</p>
+        <p>From the format drop-down menu that appears, select the number format you want.</p>
+        <br><br>
+        <hr style="height:2px;border-width:0;color:rgb(0, 0, 0);background-color:rgb(102, 51, 153)">
+        <!-- Formatting Numbers and Dates -->
+        <!-- Formatting Cells Dailog -->
+        <br><br>
+        <h3 id="17">Formatting Cells Dailog</h3>
+        <br>
+        <p>This formatting is used to do all types of formatting.</p>
+        <p style="color: red;">Step 1:</p>
+        <p>Select the cells to be formatted.</p>
+        <br>
+        <img src="Excel img/34.jpeg" style="width: 50%;" alt="34">
+        <br><br>
+        <p style="color: red;">Step 2:</p>
+        <p>Click the dialog launcher from Home’s tab Font group or Alignment group or Number group as shown in above figure.</p>
+        <p style="color: red;">Step 3:</p>
+        <p>Every time the same Formatting Cells dialog will be launched with a different tab.</p>
+        <br><br>
+        <!-- Formatting Cells Dailog -->
+        <!-- Formatting Data -->
+        <!-- Creating a chart -->
+        <h2 id="Chart">Creating a chart</h2>
+        <br><br>
+        <p>There are two ways in which we can create a chart in MS-Excel. These are</p>
+        <br>
+        <h4 style="color: blue;">Using F11 function key</h4>
+        <br>
+        <p style="color: red;">Step 1:</p>
+        <p>Select the cell range from the worksheet.</p>
+        <br>
+        <img src="Excel img/35.PNG" style="width: 50%;" alt="35">
+        <br><br>
+        <p style="color: red;">Step 2:</p>
+        <p>Press the F11 key. It will create a column bar chart with selected data and add a separate Chart sheet to your worksheet.</p>
+        <br>
+        <img src="Excel img/36.jpeg" style="width: 50%;" alt="36">
+        <br><br>
+        <p style="color: red;">Step 3:</p>
+        <p>You can click on the data sheet’s tab to get back your data.</p>
+        <br>
+        <img src="Excel img/37.PNG" style="width: 50%;" alt="37">
+        <br><br>
+        <h4 style="color: blue;">Creating chart with Insert Chart type method</h4>
+        <br>
+        <p style="color: red;">Step 1:</p>
+        <p>Select the cell range from the worksheet. You must select all the cells containing the data you want in your chart. You should also include the data labels. (Make sure that the data selected forms a rectangular range)</p>
+        <p style="color: red;">Step 2:</p>
+        <p>Click the Insert tab</p>
+        <p style="color: red;">Step 3:</p>
+        <p>Select the Chart Type from Charts group</p>
+        <p style="color: red;">Step 4:</p>
+        <p>Format the chart as preferred</p>
+        <br>
+        <h4 style="color: blue;">Format your Chart</h4>
+        <br>
+        <p>Now that you have a primitive chart visible to you, you can format the chart by adding Chart title, axes titles, adjusting size, switching row/column data etc. For this you will use the contextual tabs: Design, Layout, Format and Chart tools</p>
+        <p style="color: blue;">Add chart title</p>
+        <p style="color: red;">Step 1:</p>
+        <p>Select the chart</p>
+        <p style="color: red;">Step 2:</p>
+        <p>From the contextual tabs, click Layout tab => Labels group => Chart title => Centered Overlay Title/ Above Chart</p>
+        <p style="color: red;">Step 3:</p>
+        <p>It will add a Chart title to the chart. Click on the Chart title placeholder and type your own text.</p>
+        <p style="color: blue;">Add Axes title</p>
+        <p style="color: red;">Step 1:</p>
+        <p>Select the chart</p>
+        <p style="color: red;">Step 2:</p>
+        <p>From the contextual tabs, click Layout tab => Labels group => Axis Titles => Primary Horizontal Axis title / Primary Vertical Axis title.</p>
+        <p style="color: red;">Step 3:</p>
+        <p>It will add axes titles to the chart as per your selection. Click on the placeholder and type your own text as you did for the chart title.</p>
+        <br>
+        <h4 style="color: blue;">Printing Worksheets/Charts</h4>
+        <br>
+        <p>To print an entire worksheet, follow these steps</p>
+        <br>
+        <img src="Excel img/38.jpg" style="width: 50%;" alt="38">
+        <br><br>
+        <p style="color: red;">Step 1:</p>
+        <p>On the File menu, click Print.</p>
+        <p style="color: red;">Step 2:</p>
+        <p>A print section will appear</p>
+        <p style="color: red;">Step 3:</p>
+        <p>In this section, under settings select the option you want.</p>
+        <ol style="list-style-type: lower-alpha;">
+          <li>Choose Print Selection only if you want to print a selected range which must have already been selected by you.</li>
+          <li>Choose Print active sheet(s) option, if you want to print all the selected sheets.</li>
+          <li>Choose Print Entire Workbook option, if you want to print entire workbook.</li>
+          <li>If you have selected a chart before you invoke Print command, Print what offers an option Selected chart.</li>
+        </ol>
+        <p style="color: red;">Step 4:</p>
+        <p>Enter the desired number of printed copies in the box named Copies.</p>
+        <p style="color: red;">Step 5:</p>
+        <p>Click OK to confirm.</p>
+        <!-- Creating a chart -->
+        <!-- Quiz -->
+        <br id="Quiz">
+        <br><br>
+        <h2>Quiz</h2>
+        <br><br><br>
+        <h3 style="text-align: center;">You've learnt a lot of things.</h3>
+        <h3 style="text-align: center;">Are you ready to take a small quiz?</h3>
+        <br><br><br>
+        <button class="button-33" role="button" onclick=" window.open('msexcelquiz/index.html','_blank')">Try it NOW !!!</button>
+        <br><br><br><br><br>
+        <!-- Quiz -->
+        <br>
+        <hr style="height:2px;border-width:0;color:rgb(0, 0, 0);background-color:rgb(102, 51, 153)">
+        <div>
+          <p style="text-align: center;">Click the <strong>Download Notes</strong> button to download the study material for MS Excel.</p>
+          <button id="notes" class="button-34" type="submit" onclick="window.open('notes/msexcel.pdf')">Download Notes</button>
+        </div>
+      </div>
+  <!-- content -->
+  <!-- footer -->
+  <div id="footer">
+    <footer class="fcont">
+      <div id="contact">
+        <p id="q">Any Queries</p>
+        <a class="button" role="button" href="mailto:learning@gmail.com" style="text-decoration: none; color: white;">Contact us</a>
+      </div>
+      
+      <div id="members">
+        <p style="text-align: left; font-size: 1rem; font-weight: bold;">Team Members</p>
+        <p>Rohit Ranjan - rohit.ranjan2020@vitstudent.ac.in</p>
+        <p>Vineesh Reddy - chittadivineesh2019@vitstudent.ac.in</p>
+        <p>Suraj Prakash - suraj.prakash2020@vitstudent.ac.in</p>
+        <p>Kushal Bansal - kushal.bansal2020@vitstudent.ac.in</p>
+        <p>Logesh S - logesh.s2019@vitstudent.ac.in</p>
+        <p>Jayanth T - jayanth.t2020@vitstudent.ac.in</p>
+      </div>
+  
+      <div id="copyrights">
+        <p>© 2021 E-Learning — All Rights Reserved</p>
+      </div>
+    </footer>
+    </div>
+    <!-- footer -->
+  <a class="box" href="#top">&#9650</a>
+</section>
+</body>
+
+</html>

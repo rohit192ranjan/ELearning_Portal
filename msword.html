@@ -1,19 +1,654 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>MS-Word</title>
-    <style>
-        p{
-            width: 350px;
-            font-size:350%;
-            margin: 300px 600px;
-        }
-    </style>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>E-Learning-Word</title>
+  <!-- stylesheet -->
+  <!-- <link rel="stylesheet" href="style.css"> -->
+  <link rel="stylesheet" href="msword.css">
+  <!-- stylesheet -->
+  <!-- google font link -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Ubuntu:wght@300&display=swap" rel="stylesheet">
+  <link
+    href="https://fonts.googleapis.com/css2?family=Acme&family=Courgette&family=Pacifico&family=Permanent+Marker&family=Special+Elite&family=Stick+No+Bills:wght@200;300&display=swap"
+    rel="stylesheet">
+  <!-- google font link -->
 </head>
+
 <body>
-    <p>Coming Soon..</p>
+  <header>
+    <h1 id="top">E-Learning Portal</h1>
+  </header>
+  <!-- Navbar -->
+  <section id="navbar">
+    <div class="dropdown">
+      <a id="home" href="index.html"><img src="Primary/home-page.png" alt=""></a>
+    </div>
+    <div class="dropdown">
+      <h3>Computational Tools</h3>
+      <div class="dropdown-content">
+        <p><a href="msword.html" >MS Word</a></p>
+        <p><a href="msexcel.html">MS Excel</a></p>
+        <p><a href="mspp.html">MS PowerPoint</a></p>
+        <p><a href="notepad.html">NotePad</a></p>
+        <p><a href="mspaint.html">Paint</a></p>
+      </div>
+    </div>
+    <div class="dropdown">
+      <h3>Programming Languages</h3>
+      <div class="dropdown-content">
+        <p><a href="google.com" target="blank">Python</a></p>
+        <p><a href="google.com">C</a></p>
+        <p><a href="google.com">C++</a></p>
+        <p><a href="google.com">Java</a></p>
+      </div>
+    </div>
+    <div class="dropdown">
+      <h3>System Software</h3>
+      <div class="dropdown-content">
+        <p><a href="google.com" target="blank">DBMS</a></p>
+        <p><a href="google.com">OS</a></p>
+
+      </div>
+    </div>
+    <div class="dropdown">
+      <h3>Career Opportunities</h3>
+      <div class="dropdown-content">
+        <p><a href="google.com" target="blank">public sector</a></p>
+        <p><a href="google.com">private sector</a></p>
+        <p><a href="google.com">Higher studies</a></p>
+        <p><a href="google.com">Resevation</a></p>
+
+      </div>
+    </div>
+    <div class="dropdown">
+      <h3>Communication Skils</h3>
+      <div class="dropdown-content">
+        <p><a href="google.com" target="blank">basic english</a></p>
+        <p><a href="google.com">advanced english</a></p>
+
+      </div>
+    </div>
+    </div>
+  </section>
+  <!-- Navbar -->
+  <!-- word -->
+  <img src="ms word pics/Untitled design.png" alt="Welcome Photo" class="center">
+  <!-- Overview -->
+    <section class="container">
+      <div id="msword" class="word" style="height: 550px; overflow-y:auto; ">
+        <h2 style="color: rebeccapurple; text-align: center;">MS Word</h2>
+        <hr style="height:2px;border-width:0;color:rgb(0, 0, 0);background-color: rebeccapurple">
+        <h3 style="text-align: left;"> <a href="#basic">Basics</a> </h3>
+        <ul style="list-style: none; padding: 0%;">
+          <li><a href="#0">Open Word</a></li>
+          <li><a href="#1">Creating Word</a></li>
+          <li><a href="#2" ;>Word Basics</a>
+            <ul style="padding: 5% 10%;">
+              <li>Ribbon</li>
+              <li>Quick Acess Toolbar</li>
+            </ul>
+          </li>
+          <li><a href="#3">Saving Word</a></li>
+        </ul>
+        <h3 style="text-align: left;"> <a href="#text">Text</a></h3>
+        <ul style="list-style: none; padding: 0%;">
+          <li><a href="#4">Text Basics</a></li>
+          <li><a href="#5">Text Formats</a></li>
+          <li><a href="#6">Lists</a></li>
+        </ul>
+        <h3 style="text-align: left;"> <a href="#layout">Layout</a></h3>
+        <ul style="list-style: none; padding: 0%;">
+          <li><a href="#7">Page Layout</a></li>
+          <li><a href="#8">Headers and Footers</a></li>
+          <li><a href="#9">Page Numbers</a></li>
+        </ul>
+        <h3 style="text-align: left;"> <a href="#objects">Objects</a> </h3>
+        <ul style="list-style: none; padding: 0%;">
+          <li><a href="#10">Add Pictures</a></li>
+          <li><a href="#11">Formatting Pictures</a></li>
+          <li><a href="#12">Shapes</a></li>
+          <li><a href="#13">Tables</a></li>
+        </ul>
+        <h3 style="text-align: left;"> <a href="#Quiz">Quiz</a> </h3>
+        <h3 style="text-align: left;"> <a href="#notes">Download Notes</a> </h3>
+        <br>
+      </div>
+    <!-- Overview -->
+    <!-- content -->
+      <div id="content" class="cont">
+        <!-- Introduction -->
+        <h2>Introduction</h2>
+        <br>
+        <p><strong>Microsoft Word</strong> or <strong>MS Word</strong> (often called Word) is a graphical word processing program that users can type with. It is made by the computer company Microsoft. Its purpose is to allow users to type and save documents. Similar to other word processors, it has helpful tools to make documents.</p>
+        <br>
+        <!-- Introduction -->
+        <!-- basics -->
+        <h2 id="basic">Basics</h2>
+        <!-- open word -->
+        <br>
+        <h3 id="0">Open Word</h3>
+        <br>
+        <p style="color: red;">Step 1:</p>
+        <p>Click on Search button and type Word.</p>
+        <img src="ms word pics/Open/1.PNG" style="width: 50%;" alt="1">
+        <br>
+        <p style="color: red;">Step 2:</p>
+        <p>Click on Open button.</p>
+        <img src="ms word pics/Open/2.PNG" style="width: 60%;" alt="2">
+        <br><br>
+        <p style="color: red; font-weight: bold;">OR</p>
+        <p style="color: red;">Step 1:</p>
+        <p>Click on START menu.</p>
+        <img src="ms word pics/Open/3.PNG" style="width: 40%;" alt="3">
+        <br>
+        <p style="color: red;">Step 2:</p>
+        <p>Select and Click on Word from the window.</p>
+        <img src="ms word pics/Open/4.PNG" style="width: 40%;" alt="4">
+        <p>After clicking open, this window will come.</p>
+        <img src="ms word pics/Open/5.PNG" style="width: 60%;" alt="5">
+        <br><br><br>
+        <hr style="height:2px;border-width:0;color:rgb(0, 0, 0);background-color:rgb(102, 51, 153)">
+        <!-- open word -->
+        <!-- Creating word -->
+        <br>
+        <h3 id="1">Creating Word</h3>
+        <br>
+        <p>Whenever you start working on a new project in word, you should create a new document.</p>
+        <h4 style="color:blue;"> Create a new blank document:</h4>
+        <ul>
+          <li>Open word</li>
+          <li>Then click on <strong>New</strong> and from that rectangular window, Select a <strong>blank</strong> word
+            file or <strong>Template</strong> .</li>
+        </ul>
+        <img src="ms word pics/Open/6.PNG" style="width: 60%;" alt="6">
+        <br>
+        <p>After opening, the Word file will look like this.</p>
+        <img src="ms word pics/Open/7.PNG" style="width: 60%;" alt="7">
+        <br><br><br>
+        <h4 style="color:blue;">Open an existing word file. </h4>
+        <p>Click on <strong>Open</strong> and from that rectangular re window, <strong>select</strong> the existing word
+          file location. </p>
+        <img src="ms word pics/Open/8.PNG" style="width: 60%;" alt="8">
+        <br>
+        <p>After that <strong>Click on the Word File</strong> </p>
+        <img src="ms word pics/Open/9.PNG" style="width: 60%;" alt="9">
+        <br><br><br>
+        <hr style="height:2px;border-width:0;color:rgb(0, 0, 0);background-color:rgb(102, 51, 153)">
+        <!-- Creating word -->
+        <!-- Word Basics -->
+        <br>
+        <h3 id="2">Word Basics</h3>
+        <br>
+        <h4>Ribbon</h4>
+        <p>The Ribbon is a user interface element which was introduced by Microsoft in Microsoft Office 2007. It is
+          located below the Quick Access Toolbar and the Title Bar. It comprises seven tabs; Home, Insert, Page layout,
+          References, Mailing, Review and View. Each tab has specific groups of related commands. It gives you quick
+          access to the commonly used commands that you need to complete a task.</p>
+        <img src="ms word pics/1. basics/1a1.jpg" style="width: 100%;" alt="1a1">
+        <p>It contains </p>
+        <h4 style="color:blue;">1. Home tab</h4>
+        <p>Home tab has five groups… Clipboard, Font, Paragraph, Styles and Editing. It helps you change document
+          settings
+          like font size, adding bullets, adjusting styles and many other common features. It also helps you to return
+          to
+          the home section of the document.</p>
+        <img src="ms word pics/1. basics/1a2.jpg" style="width: 100%;" alt="1a2">
+        <br> <br>
+        <h4 style="color:blue;">2. Insert tab</h4>
+        <p>Insert tab is used to insert or add extra features in your document. It is used to add tables, pictures, clip
+          art, shapes, page number, etc. The Insert tab has ten groups… Pages, Tables, Illustrations, add-ins, media,
+          Links, comments, Header & Footer, Text and Symbols.</p>
+        <img src="ms word pics/1. basics/1a3.jpg" style="width: 100%;" alt="1a3">
+        <br> <br>
+        <h4 style="color:blue;">3. Draw tab</h4>
+        <p>The draw tab in the Word can help you add notes, create shapes, edit text, and more. It contains tools, pens,
+          convert and insert.</p>
+        <img src="ms word pics/1. basics/1a4.jpg" style="width: 55%;" alt="1a4">
+        <br> <br>
+        <h4 style="color:blue;">4. Design tab</h4>
+        <p>The Design tab lets you set what the chart looks like and what data appears in it. Design tab has two groups…
+          document Formatting and Page Background.</p>
+        <img src="ms word pics/1. basics/1a5.jpg" style="width: 100%;" alt="1a5">
+        <br> <br>
+        <h4 style="color:blue;">5. Layout tab</h4>
+        <p>Layout tab is used to control the look and feel of your document. The Layout tab has three groups… Page
+          Setup,
+          Paragraph and Arrange.</p>
+        <img src="ms word pics/1. basics/1a6.jpg" style="width: 100%;" alt="1a6">
+        <br> <br>
+        <h4 style="color:blue;">6. Refrences tab</h4>
+        <p>References tab helps you to enter document sources, citations, bibliography commands, etc… The References tab
+          has seven groups… Table of Contents, Footnotes, research, Citations & Bibliography, Captions, Index and Table
+          of
+          Authorities.</p>
+        <img src="ms word pics/1. basics/1a7.jpg" style="width: 100%;" alt="1a7">
+        <br> <br>
+        <h4 style="color:blue;">7. Mailing's tab</h4>
+        <p>Mailing’s tab allows you merge emails, writing and inserting different fields, preview results and convert a
+          file into a PDF format. The Mailings tab has five groups… Create, Start Mail Merge, Write & Insert Fields,
+          Preview Results and Finish.</p>
+        <img src="ms word pics/1. basics/1a8.jpg" style="width: 100%;" alt="1a8">
+        <br> <br>
+        <h4 style="color:blue;">8. Review tab</h4>
+        <p>Review tab helps you proofread your content, to add or remove comments, track changes, etc. The Review tab
+          has
+          ten group… Proofing, speech, accessibility, language, Comments, Tracking, Changes, Compare, Protect and ink.
+        </p>
+        <img src="ms word pics/1. basics/1a9.jpg" style="width: 100%;" alt="1a9">
+        <br> <br>
+        <h4 style="color:blue;">9. View tab</h4>
+        <p>View tab allows you to switch between Single Page and Two Page views. It also enables you to control various
+          layout tools like boundaries, guides, rulers. The View tab has eight groups… Views, immersive, page movement,
+          Show/Hide, Zoom, Window, Macros and SharePoint.</p>
+        <img src="ms word pics/1. basics/1a10.jpg" style="width: 100%;" alt="1a10">
+        <br><br><br>
+        <h4>Quick Acess Toolbar</h4>
+        <br>
+        <p>The quick access toolbar lets you access common commands. It shows the save, undo redo commands and you can
+          also add commands later.</p>
+        <img src="ms word pics/1. basics/1b1.png" style="width: 20%;" alt="1b1">
+        <br> <br>
+        <img src="ms word pics/1. basics/1b2.png" style="width: 30%;" alt="1b2">
+        <br><br>
+        <hr style="height:2px;border-width:0;color:rgb(0, 0, 0);background-color:rgb(102, 51, 153)">
+        <!-- Word Basics -->
+        <!-- Savind Word -->
+        <br><br>
+        <h3 id="3">Saving Word</h3>
+        <br>
+        <p style="color: red;">Step 1:</p>
+        <p>Click on <strong>File</strong> menu on the top left of the word window.
+        </p>
+        <img src="ms word pics/save/save 1.PNG" style="width: 70%;" alt="save 1">
+        <br><br>
+        <p style="color: red;">Step 2:</p>
+        <p>Click on save or save as button.</p>
+        <img src="ms word pics/save/save 2.PNG" style="width: 70%;" alt="save 2">
+        <br><br>
+        <p style="color: red;">Step 3:</p>
+        <ul>
+          <li>Select the location from the first rectangular window for the word file to be saved. </li>
+          <li>Type the word file name in second rectangular window. </li>
+          <li>Finally Click on save button.</li>
+        </ul>
+        <img src="ms word pics/save/save 3.PNG" style="width: 70%;" alt="save 3">
+        <br><br><br>
+        <br>
+        <!-- Savind Word -->
+        <!-- Basics -->
+        <!-- Text -->
+        <h2 id="text">Text</h2>
+        <!-- Text Basics -->
+        <br><br>
+        <h3 id="4">Text Basics</h3>
+        <br>
+        <h4 style="color:blue;">How to add text</h4>
+        <p>The insertion point is the blinking vertical line in your document. It indicates where you can enter text on
+          the page.</p>
+        <img src="ms word pics/2. text/2a1.png" style="width: 40%;" alt="2a1">
+        <br> <br>
+        <h4 style="color:blue;">How to Select Text </h4>
+        <p>Place the cursor next to the text then left click the mouse and holding it down move it over the text then
+          release it. The text will be selected.</p>
+        <img src="ms word pics/2. text/2a2.png" style="width: 70%;" alt="2a2">
+        <br> <br>
+        <h4 style="color:blue;">How to Delete Text </h4>
+        <p>You can easily delete the text in Word including characters, paragraphs or all of the content of your
+          document.
+          You can delete any text by selecting the text and by pressing backspace key.</p>
+        <br>
+        <h4 style="color:blue;">How to Copy and Paste Text </h4>
+        <p>You can copy and paste text by.. </p>
+        <ol>
+          <li>Select the text you want to copy. </li>
+          <li>Select the Home tab and click the Copy command</li>
+          <li>Place the cursor where you want to paste the text</li>
+          <li>Click the Paste command in home tab</li>
+        </ol>
+        <img src="ms word pics/2. text/2a3.png" style="width: 70%;" alt="2a3">
+        <br> <br> <br>
+        <hr style="height:2px;border-width:0;color:rgb(0, 0, 0);background-color:rgb(102, 51, 153)">
+        <!-- Text Basics -->
+        <!-- Text Formats -->
+        <br><br>
+        <h3 id="5">Text Formats</h3>
+        <br>
+        <h4 style="color:blue;">How to Change Font Size</h4>
+        <p>You can change the font size of your text in the document by…</p>
+        <ul>
+          <li>In Home tab you will find the Font group.</li>
+          <li>In Font group click the drop-down arrow next to font size box.</li>
+          <li>Font size menu appears</li>
+          <li>Select the desired font size with a left click</li>
+          <li>Select the text and click the increase or decrease font size buttons</li>
+        </ul>
+        <img src="ms word pics/2. text/2b1.png" style="width: 70%;" alt="2b1">
+        <br> <br> <br>
+        <h4 style="color:blue;">How to Change Font Style </h4>
+        <p>You can change the font style of your text in the document by…</p>
+        <ul>
+          <li>Select the text you want to modify</li>
+          <li>Select the Home tab and locate the Font group</li>
+          <li>Click the drop-down arrow next to font style box</li>
+          <li>Font style menu appears</li>
+          <li>With a left click select the desired font style</li>
+          <li>If you want to change the font to bold or italic, click the 'B' or 'I' icons on the format bar.</li>
+        </ul>
+        <img src="ms word pics/2. text/2b2.png" style="width: 70%;" alt="2b2">
+        <br> <br> <br>
+        <h4 style="color:blue;">How to Change Font Colour </h4>
+        <p>You can change the font colour of your text in the document by…</p>
+        <ul>
+          <li>Select the text you want to modify</li>
+          <li>In Home tab you will find the Font group</li>
+          <li>Click the drop-down arrow next to Font colour button</li>
+          <li>Font colour menu appears</li>
+          <li>Select the desired font colour with a left click</li>
+          <li>Word will change the Font colour of the selected text.</li>
+        </ul>
+        <img src="ms word pics/2. text/2b3.png" style="width: 70%;" alt="2b3">
+        <br> <br> <br>
+        <h4 style="color:blue;">How to Insert a Text Box </h4>
+        <img src="ms word pics/2. text/2b4.png" style="width: 70%;" alt="2b4">
+        <br> <br> <br>
+        <h4 style="color:blue;">How to Change Text Case in MS Word</h4>
+        <img src="ms word pics/2. text/2b5.png" style="width: 70%;" alt="2b5">
+        <br> <br> <br>
+        <h4 style="color:blue;">How to Change Text Alignment in MS Word</h4>
+        <img src="ms word pics/2. text/2b6.png" style="width: 70%;" alt="2b6">
+        <br> <br> <br>
+        <h4 style="color:blue;">Bold, Italic and Underline Commands in MS Word</h4>
+        <img src="ms word pics/2. text/2b7.png" style="width: 70%;" alt="2b7">
+        <br> <br> <br>
+        <hr style="height:2px;border-width:0;color:rgb(0, 0, 0);background-color:rgb(102, 51, 153)">
+        <!-- Text Formats -->
+        <!-- Lists -->
+        <br><br>
+        <h3 id="6">Lists</h3>
+        <br>
+        <h4 style="color:blue;">How to add bullets and numbers</h4>
+        <p>Bullets and numbers are used to make a list more presentable and readable. Select the text you want to
+          convert
+          to bulleted or numbered list</p>
+        <ul>
+          <li>Select the Home tab</li>
+          <li>In Paragraph group click the Bullets or Numbering command</li>
+          <li>It displays Bullets or Numbering menu</li>
+          <li>With a left click select the desired Bullet or Numbering style</li>
+          <li>To increase the list place the cursor at the end of list and press Enter key</li>
+        </ul>
+        <img src="ms word pics/2. text/2c1.png" style="width: 70%;" alt="2c1">
+        <img src="ms word pics/2. text/2c2.png" style="width: 30%;" alt="2c2">
+        <br> <br> <br>
+        <!-- Lists -->
+        <!-- Text -->
+        <!-- Layout -->
+        <br><br>
+        <h2 id="layout">Layout</h2>
+        <!-- page layout -->
+        <br><br>
+        <h3 id="7">Page Layout</h3>
+        <br>
+        <h4 style="color:blue;">How to Change Page Orientation in MS Word</h4>
+        <p>Page orientation is of two types; portrait (vertical) and landscape (horizontal). The default orientation is
+          portrait; it can be changed to landscape by following these steps;</p>
+        <ul>
+          <li>Select the Page Layout tab</li>
+          <li>Locate the Page Setup group</li>
+          <li>In Page Setup group click the Orientation command</li>
+          <li>It displays two options, Portrait and Landscape</li>
+          <li>Select the desired page orientation</li>
+        </ul>
+        <img src="ms word pics/3. layout/3a1.png" style="width: 60%;" alt="3a1">
+        <br><br><br>
+        <h4 style="color:blue;">How to Change Page Size</h4>
+        <p>The default paper size in Word is 8.5 x 11 inches. you can change page size of the document by…</p>
+        <img src="ms word pics/3. layout/3a2.png" style="width: 50%;" alt="3a2">
+        <br><br><br>
+        <h4 style="color:blue;">How to Change Page Margins</h4>
+        <p>The margin is the space between the text and border of a document. By default, it is a one-inch space.
+          Depending on your needs, it can be changed by following the below-listed steps;</p>
+        <ul>
+          <li>Select the Page Layout tab</li>
+          <li>In Page Setup group click the Margins command</li>
+          <li>A list of Margins appears</li>
+          <li>Select the desired Margin with a left click</li>
+        </ul>
+        <img src="ms word pics/3. layout/3a3.png" style="width: 25%;" alt="3a3">
+        <br><br><br>
+        <hr style="height:2px;border-width:0;color:rgb(0, 0, 0);background-color:rgb(102, 51, 153)">
+        <!-- page layout -->
+        <!-- Headers and Footers -->
+        <br><br>
+        <h3 id="8">Headers and Footers</h3>
+        <br>
+        <p>The header is a section of the document that appears in the top margin.</p>
+        <p>The footer is a section of the document that appears in the bottom margin. </p>
+        <p>Headers and footers are useful for including material that you want to appear on every page of a document
+          such
+          as your name, the title of the document, or page numbers. This tutorial explains how to insert headers and
+          footers, how to have a different header on the first page, and how to create different headers in different
+          sections.</p>
+        <br>
+        <h4 style="color:blue;">Inserting headers and footers</h4>
+        <br>
+        <img src="ms word pics/3. layout/3b1.png" style="width: 100%;" alt="3b1">
+        <br><br>
+        <p>Clicking either of these icons will display a dropdown menu with several options.</p>
+        <br>
+        <img src="ms word pics/3. layout/3b2.png" style="width: 30%;" alt="3b2">
+        <br><br>
+        <br>
+        <img src="ms word pics/3. layout/3b3.png" style="width: 70%;" alt="3b3">
+        <br><br><br>
+        <hr style="height:2px;border-width:0;color:rgb(0, 0, 0);background-color:rgb(102, 51, 153)">
+        <!-- Headers and Footers -->
+        <!-- Page Numbers -->
+        <br><br>
+        <h3 id="9">Page Numbers</h3>
+        <br>
+        <p>Page numbers can be used to automatically number each page in your document. They come in a wide range of
+          number formats and can be customized to suit your needs. Page numbers are usually placed in the header,
+          footer,
+          or side margin. When you need to number some pages differently, Word allows you to restart page numbering.
+        </p>
+        <p>Word can automatically label each page with a page number and place it in a header, footer, or side margin.
+          If
+          you have an existing header or footer, it will be removed and replaced with the page number.</p>
+        <ul>
+          <li>On the Insert tab, click the Page Number command.</li>
+          <li>Open the Top of Page, Bottom of Page, or Page Margins menu, depending on where you want the page number to
+            be positioned, then select the desired style of header.</li>
+          <li>Page numbering will appear.</li>
+        </ul>
+        <img src="ms word pics/3. layout/3c1.png" style="width: 80%;" alt="3c1">
+        <br><br>
+        <img src="ms word pics/3. layout/3c2.png" style="width: 70%;" alt="3c2">
+        <br><br><br><br>
+        <!-- Page Numbers -->
+        <!-- Layout -->
+        <!-- Objects -->
+        <h2 id="objects">Objects</h2>
+        <!-- Adding pictures -->
+        <br><br>
+        <h3 id="10">Adding Pictures</h3>
+        <br>
+        <h4 style="color:blue;">How to Insert Picture</h4>
+        <p>You can insert pictures in your text by following these steps;</p>
+        <ul>
+          <li>Place the cursor where you want to insert the picture</li>
+          <li>Select the Insert tab on Ribbon</li>
+          <li>In Illustrations group click the Picture command;</li>
+          <li>It displays 'Insert Picture' dialog box</li>
+          <li>Select the desired image</li>
+          <li>Click Insert to insert the picture</li>
+        </ul>
+        <img src="ms word pics/4. objects/4a1.png" style="width: 50%;" alt="4a1">
+        <img src="ms word pics/4. objects/4a2.png" style="width: 40%;" alt="4a2">
+        <br><br>
+        <hr style="height:2px;border-width:0;color:rgb(0, 0, 0);background-color:rgb(102, 51, 153)">
+        <!-- Adding pictures -->
+        <!-- Formatting pictures -->
+        <br><br>
+        <h3 id="11">Formatting Pictures</h3>
+        <br>
+        <p>You can change the appearance of your picture or clip art to enhance its visual impact. The format tab offers
+          you various options for formatting pictures like contrast, changing colour, line style, cropping, etc. The
+          steps
+          to format picture or clip art are given below;</p>
+        <ul>
+          <li>Select the picture or clip art that you want to format</li>
+          <li>Format tab appears in the Ribbon</li>
+          <li>Click the Format tab</li>
+          <li>It displays four groups of related commands to modify or format picture or clip art.</li>
+        </ul>
+        <br><br>
+        <img src="ms word pics/4. objects/4b1.png" style="width: 70%;" alt="4b1">
+        <br><br><br>
+        <hr style="height:2px;border-width:0;color:rgb(0, 0, 0);background-color:rgb(102, 51, 153)">
+        <!-- Formatting pictures -->
+        <!-- Shapes -->
+        <br><br>
+        <h3 id="12">Shapes</h3>
+        <br>
+        <p>You can add a variety of shapes to your document, including arrows, callouts, squares, stars, and flowchart
+          shapes. Want to set your name and address apart from the rest of your resume? Use a line. Need to create a
+          diagram showing a timeline or process? Use flowchart shapes. While you may not need shapes in every document
+          you
+          create, they can add visual appeal and clarity.</p>
+        <ul>
+          <li>Select the Insert tab, then click the Shapes command. A drop-down menu of shapes will appear.</li>
+          <li>Select the desired shape.</li>
+          <li>Click and drag in the desired location to add the shape to your document.</li>
+        </ul>
+        <img src="ms word pics/4. objects/4c1.png" style="width: 50%;" alt="4c1">
+        <img src="ms word pics/4. objects/4c2.png" style="width: 50%;" alt="4c2">
+        <br><br><br>
+        <hr style="height:2px;border-width:0;color:rgb(0, 0, 0);background-color:rgb(102, 51, 153)">
+        <!-- Shapes -->
+        <!-- Tables -->
+        <br><br>
+        <h3 id="13">Tables</h3>
+        <br>
+        <h4 style="color:blue;">How to Insert Table </h4>
+        <p>Table is a versatile tool of MS Word. It allows you to organize your information, i.e. you can align text,
+          present numerical data and create forms and calendar. The steps to insert table are given below;</p>
+        <ul>
+          <li>Place the cursor where you want to insert the table</li>
+          <li>Select the Insert tab</li>
+          <li>In Tables group click the Table command</li>
+          <li>It displays different options to insert the table</li>
+          <li>Select the desired option to insert the table</li>
+        </ul>
+        <br>
+        <img src="ms word pics/4. objects/4d1.png" style="width: 70%;" alt="4d1">
+        <br><br><br>
+        <h4 style="color:blue;">To Convert Text to Table</h4>
+        <ul>
+          <li>Select the text</li>
+          <li>Select the Insert tab</li>
+          <li>In Tables group click the Table command</li>
+          <li>Select the 'Convert Text to Table' option;</li>
+          <li>It displays a dialog box</li>
+          <li>In 'Separate text at' section select the desired option</li>
+          <li>Click OK, the text will convert to a table</li>
+        </ul>
+        <img src="ms word pics/4. objects/4d2.png" style="width: 70%;" alt="4d2">
+        <br><br><br>
+        <h4 style="color:blue;">How to Add Row and Columns in Table</h4>
+        <p>If you want to increase or add a new row or column in your table, you can follow the steps given below;</p>
+        <ul>
+          <li>Place the cursor in a row above or below which you want to add row</li>
+          <li>Right click the mouse</li>
+          <li>A menu appears</li>
+          <li>Place the arrow over Insert option</li>
+          <li>It will display a menu</li>
+          <li>As required select 'Insert Rows Above' or 'Insert Rows Below'</li>
+          <li>Similarly, you can add columns</li>
+        </ul>
+        <img src="ms word pics/4. objects/4d3.png" style="width: 70%;" alt="4d3">
+        <br><br><br>
+        <h4 style="color:blue;">How to Delete Column or Row in Table</h4>
+        <p>The table command also allows you to delete a column or row in your table. You can delete the unwanted
+          columns
+          or rows by following these steps;</p>
+        <ul>
+          <li>Select the column or row of the table</li>
+          <li>Right click the mouse</li>
+          <li>A menu appears</li>
+          <li>As required select 'Delete Columns' or 'Delete Rows'</li>
+        </ul>
+        <img src="ms word pics/4. objects/4d4.png" style="width: 70%;" alt="4d4">
+        <br><br><br>
+        <h4 style="color:blue;">How to Modify Table</h4>
+        <p>Word allows you to customize tables as per your requirement. You can modify your table in different ways,
+          i.e.., you can choose a table style, table design, draw borders. The steps to modify a table are given below;
+        </p>
+        <ul>
+          <li>Select the table</li>
+          <li>Two new tabs Design and Layout appear on the Ribbon</li>
+          <li>On Design tab you will see three groups of commands to modify table; Table Style Options, Table Styles and
+            Draw Borders.</li>
+          <li>Layout tab has six groups of commands to format table.</li>
+        </ul>
+        <br>
+        <img src="ms word pics/4. objects/4d5.png" style="width: 100%;" alt="4d5">
+        <br><br>
+        <img src="ms word pics/4. objects/4d6.png" style="width: 100%;" alt="4d6">
+        <br><br><br>
+        <!-- Tables -->
+        <!-- Objects -->
+        <!-- Quiz -->
+        <br id="Quiz">
+        <br><br>
+        <h2>Quiz</h2>
+        <br><br><br>
+        <h3 style="text-align: center;">You've learnt a lot of things.</h3>
+        <h3 style="text-align: center;">Are you ready to take a small quiz?</h3>
+        <br><br><br>
+        <button class="button-33" role="button" onclick=" window.open('mswordquiz/index.html','_blank')">Try it NOW !!!</button>
+        <br><br><br><br><br>
+        <!-- Quiz -->
+        <br>
+        <hr style="height:2px;border-width:0;color:rgb(0, 0, 0);background-color:rgb(102, 51, 153)">
+        <div>
+          <p style="text-align: center;">Click the <strong>Download Notes</strong> button to download the study material for MS Word.</p>
+          <button id="notes" class="button-34" type="submit" onclick="window.open('notes/msword.pdf')">Download Notes</button>
+        </div>
+      </div>
+  <!-- content -->
+  <!-- footer -->
+  <div id="footer">
+  <footer class="fcont">
+    <div id="contact">
+      <p id="q">Any Queries</p>
+      <a class="button" role="button" href="mailto:learning@gmail.com" style="text-decoration: none; color: white;">Contact us</a>
+    </div>
+    
+    <div id="members">
+      <p style="text-align: left; font-size: 1rem; font-weight: bold;">Team Members</p>
+      <p>Rohit Ranjan - rohit.ranjan2020@vitstudent.ac.in</p>
+      <p>Vineesh Reddy - chittadivineesh2019@vitstudent.ac.in</p>
+      <p>Suraj Prakash - suraj.prakash2020@vitstudent.ac.in</p>
+      <p>Kushal Bansal - kushal.bansal2020@vitstudent.ac.in</p>
+      <p>Logesh S - logesh.s2019@vitstudent.ac.in</p>
+      <p>Jayanth T - jayanth.t2020@vitstudent.ac.in</p>
+    </div>
+
+    <div id="copyrights">
+      <p>© 2021 E-Learning — All Rights Reserved</p>
+    </div>
+  </footer>
+  </div>
+  <!-- footer -->
+  <a class="box" href="#top">&#9650</a>
+  </section>
 </body>
+
 </html>

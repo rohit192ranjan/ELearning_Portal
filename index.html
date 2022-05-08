@@ -1,31 +1,41 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 
 <head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>E-learning</title>
-  <link rel="stylesheet" href="style.css">
+  <!-- stylesheet -->
   <link rel="stylesheet" href="carousel.css">
+  <link rel="stylesheet" href="style.css">
+  <!-- stylesheet -->
+  <!-- google font link -->
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Ubuntu:wght@300&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Acme&family=Courgette&family=Pacifico&family=Permanent+Marker&family=Special+Elite&family=Stick+No+Bills:wght@200;300&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Oswald&display=swap" rel="stylesheet">
+  <!-- google font link -->
 </head>
 
 <body>
   <header>
-    <div id="logo">
-      <img src="logo.png" alt="">
-    </div>
-    <h1>E-Learning Portal</h1>
+    <h1 id="top">E-Learning Portal</h1>
   </header>
-  <section id="image">
+  <!-- Navbar -->
+  <section id="navbar">
+    <div class="dropdown">
+      <a id="home" href="index.html"><img src="Primary/home-page.png" alt=""></a>
+    </div>
     <div class="dropdown">
       <h3>Computational Tools</h3>
       <div class="dropdown-content">
-        <p><a href="msword.html" target="blank">Microsoft Word</a></p>
-        <p><a href="google.com">Microsoft Excel</a></p>
-        <p><a href="google.com">Microsoft PowerPoint</a></p>
-        <p><a href="google.com">NotePad</a></p>
-        <p><a href="google.com">Paint</a></p>
+        <p><a href="msword.html">MS Word</a></p>
+        <p><a href="msexcel.html">MS Excel</a></p>
+        <p><a href="mspp.html">MS PowerPoint</a></p>
+        <p><a href="notepad.html">NotePad</a></p>
+        <p><a href="mspaint.html">Paint</a></p>
       </div>
     </div>
     <div class="dropdown">
@@ -40,8 +50,8 @@
     <div class="dropdown">
       <h3>System Software</h3>
       <div class="dropdown-content">
-        <p><a href="google.com" target="blank">dbms</a></p>
-        <p><a href="google.com">os</a></p>
+        <p><a href="google.com" target="blank">DBMS</a></p>
+        <p><a href="google.com">OS</a></p>
 
       </div>
     </div>
@@ -50,7 +60,8 @@
       <div class="dropdown-content">
         <p><a href="google.com" target="blank">public sector</a></p>
         <p><a href="google.com">private sector</a></p>
-
+        <p><a href="google.com">Higher Studies</a></p>
+        <p><a href="google.com">Reservation</a></p>
       </div>
     </div>
     <div class="dropdown">
@@ -61,36 +72,37 @@
 
       </div>
     </div>
-    <div class="dropdown">
-      <h3>Reservation</h3>
-      <div class="dropdown-content">
-        <p><a href="google.com" target="blank">Hello World</a></p>
-        <p><a href="google.com">Hello World</a></p>
-        <p><a href="google.com">Hello World</a></p>
-        <p><a href="google.com">Hello World</a></p>
-      </div>
-    </div>
+   
   </section>
-
+  <!-- Navbar -->
+  <!-- Carousel -->
   <section>
     <div class="slideshow-container">
-
       <div class="mySlides fade">
-        <img src="ms office.jpg" style="width:100%">
+        <img src="Primary/welcm.png" style="width:100%" class="center">
       </div>
 
       <div class="mySlides fade">
-        <img src="programmings.jpg" style="width:100%">
+        <img src="Primary/office.jpg" style="width:100%" class="center">
       </div>
 
       <div class="mySlides fade">
-        <img src="operating.jpg" style="width:100%">
+        <img src="Primary/computer.jpg" style="width:100%"  class="center">
+      </div>
+
+      <div class="mySlides fade">
+        <img src="Primary/os.jpg" style="width:100%" class="center">
+      </div>
+      <div class="mySlides fade">
+        <img src="Primary/commun.jpg" style="width:100%" class="center">
       </div>
 
     </div>
     <br>
 
     <div style="text-align:center">
+      <span class="dot"></span>
+      <span class="dot"></span>
       <span class="dot"></span>
       <span class="dot"></span>
       <span class="dot"></span>
@@ -118,58 +130,88 @@
       }
     </script>
   </section>
+  <!-- Carousel -->
 
+  <!-- quote -->
   <section id="quote">
-    <p id="one">"An <span style="color: rebeccapurple;">investment</span> in knowledge always pays the best <span
-        style="color: rebeccapurple">interest</span>"</p>
-    <p id="two">What you learn here</p>
+    <p id="one">We Provide <span class="auto-input" style="color: rgb(44, 14, 73);"></span></p>
   </section>
+  <!-- quote -->
+  <!-- Boxes -->
+  <section id="learn">
+    <p id="two">We help you learn....</p>
+    <div class="content-container">
+      <div id="i1">
+        <img src="Primary/computation.png" alt="Computation"
+          style="float: left; margin-right: 15px; border-radius: 10%;">
 
-  <section id="i1">
-    <img src="Computation.jpg" alt="Computation" style="float: left; margin-right: 15px;">
+        <p><strong> Computational Tools </strong><br><br>In this section you will learn basic computation tools like MS
+          word,Excel,Powerpoint,Notepad and Paint from scratch.This will be very useful to beginners</p>
+      </div>
 
-    <p><strong> Computational Tools </strong><br><br>iaugriauf baiuyrgaw ryag ryugauirbauifga7ur aiugra7ufdvbayufgviuar
-      iuatrasifdayur Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nisi quidem enim, tempora adipisci
-      deserunt laboriosam odit exercitationem sed incidunt ratione dignissimos culpa cumque reiciendis fugit ea
-      obcaecati voluptates. Expedita, ducimus?</p>
+      <div id="i2">
+        <img src="Primary/code.png" alt="programming" style="float: right; margin-right: 15px; border-radius: 10%;">
+
+        <p><strong> Programming Languages </strong><br><br>In this section you will learn the basics of C and C++
+          programming languages which will help you enhance your cognitive skills making you smarter and creative.
+        </p>
+      </div>
+
+      <div id="i3">
+        <img src="Primary/systemsoftware.png" alt="system_software"
+          style="float: left; margin-right: 15px; border-radius: 10%;">
+
+        <p><strong> System Software </strong><br><br>Ever wondered from where the data that you see on the internet is
+          retrieved from or who ensures your smooth and efficient experience with the system that you are using? To get
+          the answer to all such queries, check out this section on Database Management Systems & Operating Systems to
+          know the insights of your computer!</p>
+      </div>
+
+      <div id="i4">
+        <img src="Primary/communication.png" alt="Communication"
+          style="float: right; margin-right: 15px; border-radius: 10%;">
+
+        <p><strong> Communication Skills </strong><br><br>In this section, we will help you develop your communication
+          skills in an interactive and easy way which will enable you to express yourself to others accurately and
+          quickly. Yes, we all should know that mastering this skill often saves you from making a fool of yourself in
+          front of public.
+        </p>
+      </div>
+    </div>
   </section>
+  <!-- Boxes -->
+  <!-- footer -->
+  <footer class="fcont">
+    <div id="contact">
+      <p id="q">Any Queries</p>
+      <a class="button" role="button" href="mailto:learning@gmail.com" style="text-decoration: none; color: white;">Contact us</a>
+    </div>
+    
+    <div id="members">
+      <p style="text-align: left; font-size: 1rem; font-weight: bold;">Team Members</p>
+      <p>Rohit Ranjan - rohit.ranjan2020@vitstudent.ac.in</p>
+      <p>Vineesh Reddy - chittadivineesh2019@vitstudent.ac.in</p>
+      <p>Suraj Prakash - suraj.prakash2020@vitstudent.ac.in</p>
+      <p>Kushal Bansal - kushal.bansal2020@vitstudent.ac.in</p>
+      <p>Logesh S - logesh.s2019@vitstudent.ac.in</p>
+      <p>Jayanth T - jayanth.t2020@vitstudent.ac.in</p>
+    </div>
 
-  <section id="i2">
-    <img src="programming.jpg" alt="programming" style="float: right; margin-right: 15px;">
-
-    <p><strong> Programming Languages </strong><br><br>iaugriauf baiuyrgaw ryag ryugauirbauifga7ur
-      aiugra7ufdvbayufgviuar iuatrasifdayur
-      ergnhiu giughriugf sdiufhgwiout fnigherthe rgfjbguerh gehrtoiert fveorhterio gorithejrit feoirhyt erg Lorem ipsum
-      dolor sit amet consectetur, adipisicing elit. Velit, repellat. Lorem ipsum dolor sit amet consectetur adipisicing
-      elit. Dolores, voluptates!
-    </p>
-  </section>
-
-  <section id="i3">
-    <img src="system_software.jpg" alt="system_software" style="float: left; margin-right: 15px;">
-
-    <p><strong> System Software </strong><br><br>iaugriauf baiuyrgaw ryag ryugauirbauifga7ur aiugra7ufdvbayufgviuar
-      iuatrasifdayur Lorem ipsum dolor sit, amet consectetur adipisicing elit. Perferendis veniam distinctio laudantium
-      ex! Impedit omnis, blanditiis mollitia ad voluptatem vitae?Lorem ipsum dolor sit amet consectetur adipisicing
-      elit. Minima, provident?</p>
-  </section>
-
-  <section id="i4">
-    <img src="Communication.jpg" alt="Communication" style="float: right; margin-right: 15px;">
-
-    <p><strong> Communication Skills </strong><br><br>iaugriauf baiuyrgaw ryag ryugauirbauifga7ur aiugra7ufdvbayufgviuar
-      iuatrasifdayur ergnhiu
-      giughriugf sdiufhgwiout fnigherthe rgfjbguerh gehrtoiert fveorhterio gorithejrit feoirhyt erg Lorem ipsum dolor
-      sit amet consectetur adipisicing elit. Quam quo laborum eos iure dolorum voluptatum, ea sed laudantium nam dolore!
-    </p>
-  </section>
-
-  <footer>
-    <p id="q">Any Queries</p>
-    <a href="mailto:learning@gmail.com" class="btn">Contact here</a>
-    <p style="color: white;">© 2021 E-Learning — @learning.ac.in</p>
+    <div id="copyrights">
+      <p>© 2021 E-Learning — All Rights Reserved</p>
+    </div>
   </footer>
-
+  <!-- footer -->
+  <a class="box" href="#top">&#9650</a>
+  <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
+  <script>
+    var typed = new Typed(".auto-input", {
+      strings: ["easy learning", "step-wise tutorial"],
+      typeSpeed: 100,
+      backSpeed: 100,
+      loop: true
+    })
+  </script>
 </body>
 
 </html>
