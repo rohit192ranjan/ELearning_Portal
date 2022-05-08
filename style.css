@@ -1,0 +1,153 @@
+
+body{
+    margin:0;
+    background-color:white;
+}
+header{
+    display: flex;
+    background-color: white;
+}
+#logo{
+    height:50px;
+    padding-top: 30px;
+    padding-left: 35%;
+}
+#logo img{
+    width: 75px;
+    margin:auto;
+    height: 40px;
+    padding: 20px auto;
+}
+header h1{
+    font-family: 'Open Sans', sans-serif;
+    text-align: center;
+    color: rebeccapurple;
+    background:url("");
+    margin:0;
+    min-height: 70px;
+    padding-top:30px ;
+    padding-bottom: 30px;
+    padding-left: 10px;
+    text-transform: uppercase;
+    background-color: white;
+}
+#image{
+    background:url("") ;
+    background-color: #9E6DF7;
+    margin: 0px;
+}
+#image h3{
+    font-family: 'Roboto', sans-serif;
+    padding: 12px 0px;
+    text-align: center;
+    color: white;
+    text-transform: capitalize;
+    margin: 0px;
+    width: 248px;
+    cursor: pointer;
+}
+#image a{
+    color:black;
+    text-decoration:none;
+    text-transform: uppercase;
+}
+#image a:hover{
+    color: #5c37a0;
+}
+.dropdown {
+    position: relative;
+    display: inline-block;
+  }
+  
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 200px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    margin-left: 30px;
+    padding: 20px 16px;
+    z-index: 1;
+  }
+  
+.dropdown:hover .dropdown-content {
+    display: block;
+  }
+ #one{
+     text-align: center;
+     font-style: italic;
+     font-family: fantasy;
+     font-size: 50px;
+ }
+ #two{
+     text-align: center;
+     font-size: 50px;
+     font-style: bold;
+     font-family: 'Times New Roman', Times, serif;
+ }
+ section{
+     background-color:white ;
+ }
+ #i1{
+    text-align: left;
+    margin: 5% 20%;
+    min-height: 150px;
+ }
+
+ #i2{
+    text-align: left;
+    margin: 2% 20%;
+    min-height: 150px;
+}
+
+#i3{
+    text-align: left;
+    margin: 2% 20%;
+    min-height: 150px;
+}
+
+#i4{
+    text-align: left;
+    margin: 2% 20%;
+    min-height: 150px;
+}
+
+#i1 p{
+    margin-left: 250px;
+}
+#i2 p{
+    margin-right: 250px;
+}
+#i3 p{
+    margin-left: 250px;
+}
+#i4 p{
+    margin-right: 250px;
+}
+ footer{
+     text-align: center;
+     padding:30px;
+     background-color: #9E6DF7;
+ }
+ #q{
+     text-transform: uppercase;
+     font-family:'Times New Roman', Times, serif;
+     font-style:  bold;
+     color: white;
+    }
+
+.btn{
+    text-decoration: none;
+    background-color: white;
+    color: black;
+    padding: 9px;
+    border: black;
+    cursor: pointer;
+    font-size: 13px;
+    font-weight:500;
+    border-radius: 4px;
+}
+.btn:hover{
+    color: white;
+    background-color: rebeccapurple;
+}
